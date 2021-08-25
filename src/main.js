@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import vpay from 'vpay'
+import vpay from './lib/vpay'
 Vue.use(vpay);
 
 Vue.config.productionTip = false
