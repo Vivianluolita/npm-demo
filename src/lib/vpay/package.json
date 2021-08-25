@@ -1,7 +1,7 @@
 {
-  "name": "vpay",
+  "name": "vivianluoita-npm-demo-pay",
   "version": "1.0.3",
-  "description": "基于vue项目的移动端支付密码框插件",
+  "description": "vivianluoita-npm-demo-pay",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +14,8 @@
     "password"
   ],
   "author": "1563940776@qq.com",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  }
 }

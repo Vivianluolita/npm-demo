@@ -1,8 +1,35 @@
-# npm-demo
+# -[npm-demo](https://juejin.cn/post/6844903679162581005)
 
-## Project setup
+## npm
+- vpay文件夹的位置，然后终端运行npm init命令来初始化一个npm包配置文件，此时他会问你一些列问题来完成配置文件：
 ```
-npm install
+npm init
+```
+- 将vpay文件夹直接放入Node_module中
+
+```
+ // 直接引入vpay,不需要写路径
+import vpay from 'vpay'
+
+Vue.use(vpay);
+```
+
+- 切回npm镜像
+
+```
+npm config set registry http://registry.npmjs.org 
+```
+
+- 在vpay文件夹中执行命令
+
+```
+npm login
+```
+
+- 发布
+
+```
+npm publish
 ```
 
 ### Compiles and hot-reloads for development
