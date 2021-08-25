@@ -25,7 +25,13 @@ npm config set registry http://registry.npmjs.org
 ```
 npm login
 ```
+- [npm login报错](https://blog.csdn.net/baozhuona/article/details/82734120)
+```
+npm publish 发布失败 无法连接 https://registry.npmjs.org
 
+npm login -d
+
+```
 - 发布
 
 ```
